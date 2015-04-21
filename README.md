@@ -1,18 +1,15 @@
 # Pattern Lab Patterns Generator
 
-```bash
-npm install -g yo
-```
+## Prerequistes 
 
-To install generator-pattern-lab-patterns from npm, run:
+- [Node.js](http://nodejs.org) installed
+- [Yeoman](http://yeoman.io) installed by running: `npm install --global yo`
+- Install this generator with: `npm install --global generator-pattern-lab-patterns`
 
-```bash
-npm install -g generator-pattern-lab-patterns
-```
+## Useage
 
 Finally, initiate the generator, which ask which kind of patterns you want and then will add the folders `_data` and `_patterns` full of patterns and JSON data:
 
 ```bash
 yo pattern-lab-patterns
 ```
-
