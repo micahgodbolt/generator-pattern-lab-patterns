@@ -38,10 +38,10 @@ This will make your local repo the yeoman generator used. Then you can go elsewh
 yo pattern-lab-patterns
 ```
 
-If all looks as you'd expect, then submit a Pull Request! Afterwards, you'll want to unset your local Yeoman generator by running this from your repo:
+If all looks as you'd expect, then submit a Pull Request! Afterwards, you'll want to get the original generator back by running:
 
 ```bash
-npm unlink
+npm install --global generator-pattern-lab-patterns
 ```
 
 ### Pattern Bundles Needed
